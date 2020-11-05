@@ -1,3 +1,5 @@
+package restAssure;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -8,7 +10,7 @@ import org.testng.annotations.Test;
 public class Tc001GETRequest {
 
    @Test
-    void getWeatherDetails(){
+    void getEmployeeDetails(){
         // specify Base URI
 
         RestAssured.baseURI="http://dummy.restapiexample.com/api/v1";
