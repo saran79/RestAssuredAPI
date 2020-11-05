@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 public class Tc001GETRequest {
 
-  //  @Test
-   static void getWeatherDetails(){
+   @Test
+    void getWeatherDetails(){
         // specify Base URI
 
         RestAssured.baseURI="http://dummy.restapiexample.com/api/v1";
@@ -28,8 +28,8 @@ public class Tc001GETRequest {
        Assert.assertEquals(statusCode,200);
     }
 
-    public static void main(String[] args) {
+  //  public static void main(String[] args) {
 
-       getWeatherDetails();
-    }
+  //     getWeatherDetails();
+  //  }
 }
